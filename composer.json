@@ -1,5 +1,5 @@
 {
-  "name": "nahid/imgurx",
+  "name": "adexaja/imgurx",
   "description": "Imgurx is a package for laravel to access imgur web service based on Adyg/php-imgur-api-client",
   "keywords": ["imgur", "imgurx", "image-server", "image-host", "php-imgur-api-client", "laravel", "laravel-5"],
   "homepage": "https://github.com/nahid/imgurx",
@@ -7,21 +7,21 @@
   "license": "Creative Commons",
   "authors": [
     {
-      "name": "Nahid Bin Azhar",
-      "email": "nahid.dns@gmail.com"
+      "name": "Rezki Nasrullah",
+      "email": "rezkinasrullah22@gmail.com"
     }
   ],
   "minimum-stability": "dev",
   "require": {
     "php": ">=5.4.0",
-    "adyg/php-imgur-api-client": "^1.0"
+    "j0k3r/php-imgur-api-client": "^1.0"
   },
   "require-dev": {
     "phpunit/phpunit": "4.1.*"
   },
   "autoload": {
     "psr-4": {
-      "Nahid\\Imgurx\\": "src/"
+      "Adexaja\\Imgurx\\": "src/"
     }
   },
   "extra": {
