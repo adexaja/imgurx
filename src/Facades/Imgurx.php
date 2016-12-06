@@ -1,6 +1,6 @@
 <?php
 
-namespace Nahid\Imgurx\Facades;
+namespace Adexaja\Imgurx\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
