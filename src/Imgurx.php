@@ -1,5 +1,5 @@
 <?php
-namespace Nahid\Imgurx;
+namespace Adexaja\Imgurx;
 
 /**
  * Created by PhpStorm.
@@ -16,8 +16,8 @@ class Imgurx extends Client
     {
         parent::__construct();
 
-        $this->setOption('client_id', config('imgurx.client_id'));
-        $this->setOption('client_secret', config('imgurx.client_secret'));
+        $this->setOption('client_id', getenv("CLIENT_ID"));
+        $this->setOption('client_secret', getenv("CLIENT_SECRET"));
 
     }
 
