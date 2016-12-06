@@ -1,6 +1,6 @@
 <?php
 
-namespace Nahid\Imgurx;
+namespace Adexaja\Imgurx;
 
 use Illuminate\Support\ServiceProvider;
 use App;
@@ -26,7 +26,7 @@ class ImgurxServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Nahid\Imgurx\Imgurx');
+        $this->app->make('Adexaja\Imgurx\Imgurx');
 
         App::bind('imgurx', function () {
             return new \Nahid\Imgurx\Imgurx;
@@ -36,6 +36,6 @@ class ImgurxServiceProvider extends ServiceProvider
 
     public function provides()
     {
-        return ['Nahid\Imgurx\ImgurxServiceProvider'];
+        return ['Adexaja\Imgurx\ImgurxServiceProvider'];
     }
 }
